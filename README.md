@@ -3,7 +3,7 @@
 
 ## **1. real-time pipeline 1:**
 **EXTRACT DATA FROM FORDGOBIKE API, TRANSFORM AND STORE IT IN S3 AS CSV**
-  -	lấy dữ liệu từ API http://hamilton.socialbicycles.com/opendata/station_status.json chứa thông tin về trạng thái của các trạm xe của Ford GoBike
+  -	lấy dữ liệu từ API http://hamilton.socialbicycles.com/opendata/station_status.json chứa thông tin về trạng thái của các trạm xe của Ford GoBike  
 ![Picture15](https://github.com/user-attachments/assets/d010b55d-f422-4ebe-a906-410fcf8a950d)
   - Sau khi các tệp đã được lấy từ thư mục tạm thời, bước tiếp theo là trích xuất thông tin về ID trạm và số lượng xe đạp có sẵn, sau đó chuyển đổi thông tin đó thành tệp CSV và thêm nó vào s3
 
